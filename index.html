@@ -6,44 +6,66 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to the Wine Ordering App</h1>
+    <div class="header-content">
+      <h1>Wine Ordering App</h1>
+      <p>A convenient way to order your favorite wines</p>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <a class="button" href="https://your-wine-ordering-app.com">Order Now</a>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>Available Wines</h2>
-      <ul>
-        <li>
-          <h3>Red Wine</h3>
-          <p>A rich and flavorful red wine.</p>
-          <button>Add to Cart</button>
-        </li>
-        <li>
-          <h3>White Wine</h3>
-          <p>A crisp and refreshing white wine.</p>
-          <button>Add to Cart</button>
-        </li>
-        <li>
-          <h3>Rosé Wine</h3>
-          <p>A light and fruity rosé wine.</p>
-          <button>Add to Cart</button>
-        </li>
-      </ul>
+    <section id="features">
+      <h2>Key Features</h2>
+      <div class="feature">
+        <img src="feature1-image.jpg" alt="Feature 1">
+        <h3>Feature 1</h3>
+        <p>Description of Feature 1</p>
+      </div>
+      <div class="feature">
+        <img src="feature2-image.jpg" alt="Feature 2">
+        <h3>Feature 2</h3>
+        <p>Description of Feature 2</p>
+      </div>
+      <div class="feature">
+        <img src="feature3-image.jpg" alt="Feature 3">
+        <h3>Feature 3</h3>
+        <p>Description of Feature 3</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Shopping Cart</h2>
-      <ul id="cart">
-        <!-- The selected items will be added dynamically here -->
-      </ul>
-      <button id="checkout">Checkout</button>
+    <section id="about">
+      <h2>About</h2>
+      <p>Personal story and inspiration for the project. Mention the timeline and that it is a portfolio project for Holberton School.</p>
+      <div class="team-members">
+        <div class="team-member">
+          <h3>Team Member 1</h3>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/team-member1">LinkedIn</a></li>
+            <li><a href="https://github.com/team-member1">GitHub</a></li>
+            <li><a href="https://twitter.com/team-member1">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="team-member">
+          <h3>Team Member 2</h3>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/team-member2">LinkedIn</a></li>
+            <li><a href="https://github.com/team-member2">GitHub</a></li>
+            <li><a href="https://twitter.com/team-member2">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <a class="github-link" href="https://github.com/your-username/wine-ordering-app">GitHub Repository</a>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2023 Wine Ordering App. All rights reserved.</p>
   </footer>
-
-  <script src="app.js"></script>
 </body>
 </html>
