@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f5f5f5;
 }
 
 header, main, footer {
@@ -83,6 +84,28 @@ button:hover {
 
 #checkout:hover {
   background-color: #0b7dda;
+}
+
+/* Wine Images */
+li.red-wine {
+  background-image: url('red-wine.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+li.white-wine {
+  background-image: url('white-wine.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+li.rose-wine {
+  background-image: url('rose-wine.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Footer styles */
